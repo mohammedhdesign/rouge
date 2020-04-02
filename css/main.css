@@ -6,6 +6,9 @@
   width: 1200px;
   margin: 0 auto;
 }
+.clear {
+  clear: both;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -88,7 +91,7 @@ nav ul li a {
 /**** Welcome ****/
 
 .welcome {
-  margin: 24px 30px;
+  margin: 24px 0;
 }
 
 .welcome h3 {
@@ -115,6 +118,7 @@ nav ul li a {
 .specials {
   width: 275px;
   height: 128px;
+  padding-top: 30px;
   padding-right: 100px;
 
 }
@@ -129,11 +133,11 @@ nav ul li a {
   padding-bottom: 20px;
 }
 
-.reviews {
-  width: 330px;
-  height: 157px;
-  padding: 25px 35px;
-  margin-right: 30px;
+#reviews {
+  width: 400px;
+  /* height: 157px; */
+  /* padding: 25px 35px; */
+  padding: 30px 45px 25px 25px;
   border-left: 1px solid #eeeeee;
 	border-right: 1px solid #eeeeee;
 
@@ -141,10 +145,9 @@ nav ul li a {
 
 .contact {
   width: 195px;
-  height: 100px;
-  padding: 25px 182px 85px 25px;
-  margin-left: 40px;
-
+  height: 175px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 #bottom h4 {
   font-family: 'Montserrat', sans-serif;
