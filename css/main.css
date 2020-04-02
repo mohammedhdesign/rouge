@@ -116,7 +116,7 @@ nav ul li a {
 }
 
 .specials {
-  width: 275px;
+  width: 375px;
   height: 128px;
   padding-top: 30px;
   padding-right: 100px;
@@ -133,7 +133,7 @@ nav ul li a {
   padding-bottom: 20px;
 }
 
-#reviews {
+.reviews {
   width: 400px;
   /* height: 157px; */
   /* padding: 25px 35px; */
